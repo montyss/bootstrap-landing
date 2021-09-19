@@ -1,0 +1,46 @@
+.container {
+    padding-top: 0px;
+}
+
+.jumbotron-fluid {
+    padding: 150px 0;
+    background: linear-gradient(rgb(0, 0, 0, .5), rgb(0, 0, 0, .5)), url(/images/conf.jpg) no-repeat center / cover;
+    color: seashell;
+}
+
+.artist .card {
+    margin-bottom: 20px;
+}
+
+.artist .card-body {
+    height: 250px;
+}
+
+.artist {
+    padding: 60px 0;
+}
+
+.navbar {
+    background: rgb(9, 163, 235);
+}
+
+.btn-primary {
+    background-color: darkgreen;
+    border: darkgreen;
+}
+
+.btn-primary:hover {
+    background-color: rgb(126, 190, 126);
+    border: rgb(126, 190, 126);
+}
+
+.btn-success {
+    background-color: darkkhaki;
+    border: darkkhaki;
+}
+
+.btn-success:hover {
+    background-color: rgb(136, 131, 63);
+    border: rgb(136, 131, 63);
+}
+

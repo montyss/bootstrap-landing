@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="/css/main.css" rel="stylesheet">
+
+    <title>Live Music</title>
+  </head>
+  <body>
+
+    <!--Navbar-->
+    <nav class="navbar fixed-top navbar-dark navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="/images/logo.png" alt="logo" width="50" height="44" class="d-inline-block align-text-top">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#artist">Artisti</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Navbar-->
+
+    <!--Jumbotron-->
+    <div id="home">
+      <div class="jumbotron text-md-center jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Musica dal vivo</h1>
+          <p class="lead">I più grandi artisti presentano uno spettacolo mai visto prima</p>
+          <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" data-bs-toggle="modal" data-bs-target="#registration" class="btn btn-primary btn-lg">Registrati</button>
+            <a class="btn btn-success btn-lg" href="#artist" role="button">Artisti</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Jumbotron-->
+    
+
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-md-6 order-1">
+          <h1>Il digital Marketing</h1>
+          <img src="/images/marketing.jpg" class="img-fluid rounded" alt="marketing">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt
+            Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident,
+            sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="col-md-3">
+          <h1>Gli esperti</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt
+            Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident,
+            sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="col-md-3 order-2">
+          <h3>Cosa ascolterai</h3>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Musica Classica
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Musica Rock
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Musica Pop
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div id="artist" class="artist">
+        <h2 class="text-center">Gli Artisti</h2>
+        <div class="row pt-5">  <!--pt5 padding top 5 utilities spacing-->
+          <div class="col-6 col-md-4 col-lg-3"> <!--md-4 layout a 3 colonne (12diviso3=4)-->
+            <div class="card">
+              <img src="/images/amalia.png" class="card-img-top" alt="Amalia">
+              <div class="card-body">
+                <h4 class="card-title">Amalia Freglioje</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img src="/images/ciccio.png" class="card-img-top" alt="ciccio">
+              <div class="card-body">
+                <h4 class="card-title">Ciccio Pasticcio</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img src="/images/pinco.png" class="card-img-top" alt="Pinco Pallo">
+              <div class="card-body">
+                <h4 class="card-title">Pinco Pallo</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img src="/images/anna.png" class="card-img-top" alt="Anna">
+              <div class="card-body">
+                <h4 class="card-title">Anna Pannocchia</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img src="/images/herbert.png" class="card-img-top" alt="Toni">
+              <div class="card-body">
+                <h4 class="card-title">Toni Toppa</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img src="/images/pinco2.png" class="card-img-top" alt="Maccio">
+              <div class="card-body">
+                <h4 class="card-title">Maccio Capatonda</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div id="about">
+        <div class="row pt-5 align-items-center">
+          <div class="col">
+            <p><strong>About Lacerba</strong></p>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
+          </div>
+
+          
+          <div class="col"> <!--/signup forms-->
+            <p><strong>Vuoi ricevere la newsletter?</strong></p>
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Email">
+                <span class="input-group-btn">
+                  <button class="btn btn-primary" type="button">Iscriviti</button>
+                </span>
+            </div>
+          </div>  <!--/signup forms-->
+        </div>
+      </div>
+
+      <div class="row py-4 align-items-center">
+        <div class="col-md-7">
+          <ul class="nav justify-content-center justify-content-md-start">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Community</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://twitter.com/montini_7" target="_blank">Montyss</a>
+            </li>
+            <li class="nav-item">
+              <!-- Split dropup button -->
+              <div class="btn-group dropup">
+                <button type="button" class="btn btn-secondary">
+                  Scopri di più
+                </button>
+                <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                  <span class="visually-hidden">Toggle Dropdown</span>
+                </button>
+                <ul class="dropdown-menu">
+                  <!-- Dropdown menu links -->
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-5 text-center text-md-right py-2">
+          <span>&copy; 2018 Live Music Event &amp; Montyss</span>
+        </div>
+      </div>
+    </div> <!--Container-->
+
+    <!-- Modal -->
+    <div class="modal fade" id="registration" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Registrati all'evento</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="row pb-4">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="First name">
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Last name">
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Iscriviti alla newsletter</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal -->
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
